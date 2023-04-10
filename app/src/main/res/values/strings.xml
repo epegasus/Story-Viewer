@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Story Viewer</string>
+
+    <string name="title">Welcome to StoryView</string>
+    <string name="show_stories">Show Stories</string>
+    <string name="link">https://www.linkedin.com/in/epegasus/</string>
+</resources>
