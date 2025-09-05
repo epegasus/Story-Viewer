@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         val simpleDateFormat = SimpleDateFormat("dd-MM-yyyy hh:mm:ss", Locale.ENGLISH)
 
         val story1 = MyStory(
-            url = "https://mfiles.alphacoders.com/681/681242.jpg"
+            url = "https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=1024x1024&w=0&k=20&c=z8_rWaI8x4zApNEEG9DnWlGXyDIXe-OmsAyQ5fGPVV8="
         )
         val story2 = MyStory(
             url = "https://static.boredpanda.com/blog/wp-content/uploads/2017/11/My-most-popular-pic-since-I-started-dog-photography-5a0b38cbd5e1e__880.jpg",

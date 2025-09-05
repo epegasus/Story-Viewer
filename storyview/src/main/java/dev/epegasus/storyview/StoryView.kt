@@ -23,6 +23,7 @@ import dev.epegasus.storyview.listeners.pull_dismiss_listener.OnPullDismissListe
 import dev.epegasus.storyview.utils.DateUtils.getDurationBetweenDates
 import dev.epegasus.storyview.utils.GeneralUtils.getActivity
 import java.util.*
+import androidx.core.graphics.drawable.toDrawable
 
 /**
  * Created by Sohaib Ahmed on 02/04/2023.
@@ -65,7 +66,7 @@ class StoryView private constructor() : DialogFragment(), StoriesListener, Story
 
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
-        dialog?.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+        dialog?.window?.setBackgroundDrawable(Color.TRANSPARENT.toDrawable())
         _binding = DialogStoriesBinding.inflate(layoutInflater, container, false)
         return binding.root
     }
