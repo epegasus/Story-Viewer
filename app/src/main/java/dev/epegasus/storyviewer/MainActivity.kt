@@ -31,11 +31,11 @@ class MainActivity : AppCompatActivity() {
         )
         val story2 = MyStory(
             url = "https://static.boredpanda.com/blog/wp-content/uploads/2017/11/My-most-popular-pic-since-I-started-dog-photography-5a0b38cbd5e1e__880.jpg",
-            date = simpleDateFormat.parse("04-04-2023 10:00:00")
+            date = simpleDateFormat.parse("16-09-2025 9:00:00")
         )
         val story3 = MyStory(
             url = "https://images.pexels.com/photos/36029/aroni-arsa-children-little.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            date = simpleDateFormat.parse("26-03-2023 15:00:00"),
+            date = simpleDateFormat.parse("16-09-2025 8:00:00"),
             description = "This is a description"
         )
         myStories.add(story1)
